@@ -8,7 +8,10 @@ function MidContainer() {
   const [weather, setWeather] = useState([] as any);
   const [locations, setLocations] = useState('seville');
   const [sky, setSky] = useState('clear');
-  
+
+  const url = 'https://api.openweathermap.org/data/2.5';
+  const key = '213fd4de0e6c9b49f0f00849d2c10382';
+
   useEffect(() => {
     getWeatherData();
     // eslint-disable-next-line
@@ -20,7 +23,7 @@ function MidContainer() {
 
   function getWeatherData() {
     axios.get(
-      `${process.env.REACT_APP_API_URL}/weather?q=${locations}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
+      `${url}/weather?q=${locations}&appid=${key}&units=metric`
     ).then(response => {
       setWeather(response.data);
       setSky(response.data.weather[0].main);
