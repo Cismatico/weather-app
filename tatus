@@ -1,0 +1,23 @@
+[33mcommit 9237b6d03fe83c8b1b7c3aa97cfbd3906a4ab1a2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Cismatico <albertorueda3@gmail.com>
+Date:   Fri May 13 17:43:14 2022 +0200
+
+    Add images and some fixes
+
+[33mcommit 7c04c10dd7b3ea4d0ee2297075061c0cbe93481b[m
+Author: Cismatico <albertorueda3@gmail.com>
+Date:   Tue May 10 18:46:18 2022 +0200
+
+    Ignore env file
+
+[33mcommit 1ef8a229872e3223448da8f32d1be2a4f0791c2a[m
+Author: Cismatico <albertorueda3@gmail.com>
+Date:   Tue May 10 18:26:45 2022 +0200
+
+    Fetch API from openweathermap.org, add components from mantine
+
+[33mcommit c69fbd4b3e7b07d01c3340f3f2b58593f23b6fd6[m
+Author: Cismatico <albertorueda3@gmail.com>
+Date:   Sun May 8 17:45:51 2022 +0200
+
+    Initialize project using Create React App
